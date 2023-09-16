@@ -1,0 +1,29 @@
+@media screen and (max-width:992px) {
+    #header>.row>#nav {
+        display: none !important;
+
+    }
+
+    #header>.row>div>a {
+        display: none !important;
+    }
+
+    #header>.row>figure {
+        width: 30% !important;
+    }
+
+    #header>section>.text>h1 {
+        font-size: 5vw !important;
+    }
+
+    .services>.row>section:nth-of-type(2)>div {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (min-width:992px) {
+    #header>.row>div>span {
+        display: none !important;
+    }
+}
